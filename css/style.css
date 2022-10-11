@@ -127,7 +127,7 @@ nav,
     text-transform: uppercase;
     font-size: 1.25rem;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     translate: 0.2s;
     font-weight: bold;
     margin-top: 0.5rem;
@@ -135,8 +135,8 @@ nav,
 }
 
 .fa-user {
-    font-size: 16px;
-    margin-right: 5px;
+    font-size: 1rem;
+    margin-right: 0.3125rem;
 }
 
 .button1:hover {
@@ -149,27 +149,27 @@ nav,
 ------------------------------------------------*/
 
 input {
-    margin: 15px auto;
+    margin: 0.9375rem auto;
     display: block;
     width: 80%;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
     outline: none;
     border: 1px solid gray;
 }
 
 .image-close {
     position: absolute;
-    top: 15px;
+    top: 0.9375rem;
     left: 90%;
     background-color: #fff;
-    width: 20px;
+    width: 1.25rem;
     cursor: pointer;
 }
 
 .forgotten-password a {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     color: #511622;
 }
@@ -200,17 +200,17 @@ input {
 } */
 
 #form button {
-    padding: 10px;
-    margin-top: 5px;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
     width: 100%;
     color: white;
     /* background-color: rgb(41, 194, 128); */
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .btn-submit {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .input-control {
@@ -220,10 +220,10 @@ input {
 
 .input-control input {
     border: 2px solid #f0f0f0;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     display: block;
-    font-size: 12px;
-    padding: 10px;
+    font-size: 0.75rem;
+    padding: 0.625rem;
     width: 100%;
 }
 
@@ -237,8 +237,8 @@ input {
 
 .input-control .error {
     color: #ff3860;
-    font-size: 9px;
-    height: 13px;
+    font-size: 0.5625rem;
+    height: 0.8125rem;
 }
 
 
@@ -267,7 +267,7 @@ input {
     color: #fff;
     font-weight: 600;
     line-height: 1.5em;
-    word-spacing: 2px;
+    word-spacing: 0.125rem;
 }
 
 .btn-register {
@@ -287,7 +287,7 @@ input {
     cursor: pointer;
     color: blue;
     text-decoration: underline;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     margin-bottom: 0.125rem;
 }
 
@@ -388,29 +388,29 @@ h2 {
 
 .contact-us-section {
     background-color: rgba(107, 241, 241, 0.252);
-    padding: 50px;
+    padding: 3.125rem;
     width: 100%;
 }
 
 .contact-flex {
     background-color: #fff;
     width: 70%;
-    padding: 20px;
+    padding: 1.25rem;
     border-radius: 15px;
     margin: 0 auto;
 }
 
 .Message {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 900;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 p,
 small {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .contact-form {
@@ -420,17 +420,17 @@ small {
 
 .contact-form label {
     display: block;
-    margin: 20px 75px;
+    margin: 1.25rem 4.6875rem;
 }
 
 .contact-form textarea {
-    margin: 20px 78px;
+    margin: 1.25rem 4.875rem;
 }
 
 .contact-input,
 .contact-button {
     width: 77%;
-    margin: 20px 78px;
+    margin: 1.25rem 4.875rem;
     border-radius: 0px;
 }
 
