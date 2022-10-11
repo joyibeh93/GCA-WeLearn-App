@@ -420,26 +420,23 @@ small {
 
 .contact-form label {
     display: block;
-    margin: 20px 65px;
+    margin: 20px 75px;
 }
 
 .contact-form textarea {
-    margin: 20px 65px;
+    margin: 20px 78px;
 }
 
 .contact-input,
 .contact-button {
-    width: 80%;
+    width: 77%;
+    margin: 20px 78px;
     border-radius: 0px;
 }
 
 .contact-button {
     background-color: black;
     color: #fff;
-}
-
-.contact-image {
-    width: 30%;
 }
 
 
