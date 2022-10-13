@@ -59,21 +59,25 @@ nav,
     color: blue;
 }
 
+
+/* rgb(107, 241, 241) */
+
 .btn-signin {
     padding: 0.625rem 1.5625rem;
     font-size: 1.125rem;
-    background-color: rgb(107, 241, 241);
-    border: 1px solid #fff;
+    background-color: #fff;
+    border: 1px solid;
     border-radius: 0.625rem;
     outline: none;
     text-transform: uppercase;
-    color: #fff;
+    color: blue;
     transition: 200ms ease-in-out;
 }
 
 .btn-signin:hover {
     cursor: pointer;
     background-color: rgb(57, 57, 241);
+    color: #fff;
 }
 
 

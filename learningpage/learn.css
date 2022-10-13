@@ -43,16 +43,18 @@ body {
 }
 
 .homepagebtn {
-    background-color: rgb(182, 158, 25);
+    border: 3px solid #0d6efd;
     margin-right: 4px;
-    outline: none;
-    border: none;
+    border-radius: 15px;
+    color: #fff;
+    transition: 200ms ease-in;
 }
 
 .homepagebtn:hover {
     cursor: pointer;
+    background-color: #0d6efd;
     color: #fff;
-    background-color: blue;
+    border: 2px solid #fff;
 }
 
 

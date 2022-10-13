@@ -45,8 +45,8 @@
                     <form action="" id="signin-form">
                         <img src="./images/image-passport.png" alt="png-image" class="head-image" />
                         <img src="./images/close-icon-13.png" alt="image-close" class="image-close" id="close-popup" />
-                        <input type="username" placeholder="Enter your username" id="username" />
-                        <input type="password" placeholder="enter your password" id="passwordSignin" />
+                        <input type="username" placeholder="Enter your username" id="username" autocomplete="off" />
+                        <input type="password" placeholder="enter your password" id="passwordSignin" autocomplete="off" />
                         <small class="forgotten-password">
                                 <i class="fa-regular fa-user"></i
                                 ><a href="#">forgot password</a></small
@@ -80,7 +80,7 @@
                             <div class="input-control">
                                 <input
                                     type="text"
-                                    name="username"
+                                    name="firstname"
                                     id="fname"
                                     placeholder="enter your firstname"
                                 />
@@ -89,7 +89,7 @@
                             <div class="input-control">
                                 <input
                                     type="text"
-                                    name="username"
+                                    name="lastname"
                                     id="lname"
                                     placeholder="enter your lastname"
                                 />
@@ -97,10 +97,10 @@
                             </div>
                             <div class="input-control">
                                 <input
-                                    type="email"
+                                    type="text"
                                     name="email"
-                                    id="email2"
-                                    placeholder="enter your email-address"
+                                    id="email"
+                                    placeholder="enter your password"
                                 />
                                 <div class="error"></div>
                             </div>
@@ -122,7 +122,12 @@
                                 />
                                 <div class="error"></div>
                             </div>
-                            <button type="submit" class="button1 btn-submit">
+                            <button
+                                type="submit"
+                                class="button1 btn-submit"
+                                id="submit1"
+                            >
+                                <!-- onclick="validate()" -->
                                 Register
                             </button>
                         </form>

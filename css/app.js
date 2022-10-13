@@ -2,35 +2,30 @@
 const userName = document.querySelector('#username');
 const passwordSignIn = document.querySelector('#passwordSignIn');
 const SignInform = document.querySelector('#signin-form');
-const buttonElement = document.querySelector('#buttonLogin')
 
 SignInform.addEventListener('submit', function(e) {
     e.preventDefault();
     if (userName.value === '' || passwordSignIn.value === '') {
         const errorMessage = document.createElement('p');
         errorMessage.style.color = 'red';
-        errorMessage.style.fontSize = '20px';
-        errorMessage.style.fontWeight = '800';
+        errorMessage.style.fontSize = '18px';
+        errorMessage.style.fontWeight = '500';
         errorMessage.innerHTML = 'sorry,all fields must have a value';
         SignInform.prepend(errorMessage);
-        document.querySelector('#username') = '';
-        document.querySelector('#passwordSignIn') = '';
-
-    } else if (userName.value !== '' || passwordSignIn.value !== '') {
-        validate();
-    } else {
-        toggleSubmitButton();
     }
 });
 
-function toggleSubmitButton() {
-    buttonElement.setAttribute("disabled");
-}
+// function toggleSubmitButton() {
+//     buttonElement.setAttribute("disabled");
+// }
+
+let buttonElement = document.querySelector('#buttonLogin');
+buttonElement.addEventListener('onclick', validate);
 
 function validate() {
     window.location.href = 'learn.html';
-
 }
+
 // FORM VALIDATION CODE
 const form = document.getElementById('form');
 const firstname = document.getElementById('fname');
